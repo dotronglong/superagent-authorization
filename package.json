@@ -1,0 +1,32 @@
+{
+  "name": "superagent-authorization",
+  "version": "1.0.0",
+  "description": "Authorization plugin for superagent",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotronglong/superagent-authorization.git"
+  },
+  "keywords": [
+    "auth",
+    "authorization",
+    "plugin",
+    "superagent"
+  ],
+  "author": "Long Do <me@dotronglong.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dotronglong/superagent-authorization/issues"
+  },
+  "homepage": "https://github.com/dotronglong/superagent-authorization#readme",
+  "dependencies": {
+    "js-base64": "^2.6.2"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "mocha": "^8.0.1"
+  }
+}
